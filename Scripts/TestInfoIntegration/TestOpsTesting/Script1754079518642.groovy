@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Hea
     'John Doe')
 
 WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_txt-password'), 
-    'Thisisok')
+    'ThisisNotAPassword')
 
 // Click the login button
 WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Password_btn-login'))
